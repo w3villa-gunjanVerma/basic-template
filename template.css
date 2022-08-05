@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Common classes*/
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.ptb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.alignment {
+    text-align: center;
+}
+
+.font-color {
+    color: white;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+.ptb-5 {
+    padding-bottom: 3rem;
+}
+
+.ptb {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ptb-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.image-wh>img {
+    width: 70%;
+    height: 70%;
+}
+
+.f-direction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image2-hw>img {
+    height: auto;
+    width: 60%;
+}
+
+.heading {
+    color: #000;
+}
+
+.para-color {
+    color: gray;
+}
+
+.img-rel {
+    position: relative;
+    background: url('tower.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+}
+
+.img-abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+/*area*/
+.w-40 {
+    width: 40%;
+    float: left;
+}
+
+.w-60 {
+    width: 60%;
+    float: left;
+}
+
+.customwidth {
+    width: 25%;
+
+}
+
+/* colours for second section*/
+
+.blue {
+    background-color: blueviolet;
+}
+
+.blueviolet {
+    background-color: plum;
+}
+
+.green {
+    background-color: seagreen;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.color {
+    background-color: blue;
+
+}
+
+/*This is the code for Header*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*padding: 0 2rem;*/
+    /*height: 75px;*/
+    /* position: fixed; */
+}
+
+.bg-color {
+    background-color: whitesmoke;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*.bg-image {
+    background-image:  linear-gradient(transparent,dodgerblue),url('tower.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;  
+}*/
+
+/*hero section start from here*/
+.hero {
+    background-image: linear-gradient(transparent, dodgerblue), url('tower.jpg');
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*about section start from here*/
+.about {}
