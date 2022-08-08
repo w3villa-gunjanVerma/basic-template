@@ -5,7 +5,13 @@
     font-family: "Roboto",sans-serif;
     font-weight: 300;
 }
-
+p{
+    font-size: 14px;
+}
+.image-position{
+display: flex;
+justify-content: end;
+}
 
 /*Common classes*/
 .plr-140{
@@ -72,16 +78,16 @@ padding-right: 140px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+   padding: 40px 0;
 }
 .grey-text2 {
     color: #9e9e9e !important;
 }
-
-
-.para-size {
-    font-size: 1.25rem;
-    font-weight: 300;
+.paragraph-font{
+    font-size: 16px;
+}
+.black-text{
+    color: #000;
 }
 .grey-text {
     color: #607d8b !important;
@@ -167,8 +173,8 @@ padding-right: 140px;
 }
 .ptb-1
 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.75px;
+    padding-bottom: 0.25px;
 }
 .pt-2
 {
@@ -179,13 +185,10 @@ padding-right: 140px;
 }
 .pb-3
 {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .pb-1{
-    padding-bottom: 1rem;
-}
-.pt-1{
-    padding-top: 1rem;
+    padding-bottom: 0.25rem;
 }
 .h1{
     font-size: 40px;
@@ -213,7 +216,6 @@ padding-right: 140px;
     width: 25%;
 
 }
-
 /*This is the code for Header*/
 .navbar {
     display: flex;
