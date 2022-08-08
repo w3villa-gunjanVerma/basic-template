@@ -134,6 +134,27 @@ padding-right: 140px;
     padding: 0.84rem 2.14rem;
     font-size: .81rem;
 }
+.btn-2
+{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.form-element{
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+    cursor: pointer;
+    background-color:transparent;
+    height: 50px;
+    width: 200px;
+}
 
 .ptb
 {
