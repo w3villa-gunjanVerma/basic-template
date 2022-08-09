@@ -295,3 +295,20 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+/*
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  */
+  @media (max-width: 500px) {
+    .sec-2 {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .back-img {
+    width: 100%;
+    }
+    }
