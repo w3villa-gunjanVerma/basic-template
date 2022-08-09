@@ -295,3 +295,40 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+
+
+
+
+/*
+++++++++++++++++++++++++++
+main CSS
+++++++++++++++++++++++++++
+*/
+
+/*Pricing */
+
+.pricing{
+
+}
+
+.pricing-individual-gradient{
+    /*background-image: ;*/
+}
+
+.pricing .pricing-inner{
+    text-align: center;
+    background-image: linear-gradient(rgba(27, 25, 43, 0.7), rgba(34, 39, 38, 0.7)),url('../images/tower.jpg') ;
+    color: white;
+    padding: 40px 0;
+}
+.pricing .pricing-inner ul{
+
+}
+.pricing .pricing-inner ul li{
+    list-style-type: none;
+}
+
+
+
