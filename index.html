@@ -3,36 +3,48 @@
 
 <head>
     <title>template</title>
-    <link rel="stylesheet" href="assets/template-css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 </head>
 
 <body>
-    <header style=" background-color: #3f51b5;">
-        <div class="container navbar-ptb">
-            <div class="row no-gutters">
-                <div class="col-6">
-                    <h3 class="text-white">Material Landing</h3>
-                </div>
-                <div class="col-6 d-flex " style="align-items: baseline; justify-content: space-evenly;">
-                    <ul class="d-flex list-unstyled">
-                        <li><a class="text-white" href="#about">About</a></li>
-                        <li><a class="text-white" href="#project">Project</li>
-                        <li><a class="text-white" href="#pricing">Pricing</a></li>
-                        <li><a class="text-white" href="#team">Team</a></li>
-                        <li><a class="text-white" href="#contact">contact</a></li>
-                    </ul>
-                    <button class="btn-send " href="#download"
-                        style="background-color: #4285f4;color:white;">DOWNLOAD</button>
+    <header>
+        <nav>
+            <div class="navbar text-white" >
+                <div class="container">
+                    <div class="">
+                        <h3>Material Landing</h3>
+                    </div>
+                    <div class="nav-link">
+                        <i class="fa-fa fa-xmark"></i>
+                        <ul>
+                            <li><a class="text-white" href="#about">About</a></li>
+                            <li><a class="text-white" href="#project">Project</li>
+                            <li><a class="text-white" href="#pricing">Pricing</a></li>
+                            <li><a class="text-white" href="#team">Team</a></li>
+                            <li><a class="text-white" href="#contact">contact</a></li>
+                                <button class="btn-download" href="#download">DOWNLOAD</button>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
-        </div>
+        </nav>
+      
     </header>
+    
+    
+    
+    
+    
+    
     <section>
         <div class="hero"
-            style="background-image:linear-gradient(rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7)),url('assets/images/tower.jpg') ;">
+            style="background-image:linear-gradient(rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7)),url('assets/images/tower.jpg') ; background-position: center;">
             <div class="container text-white">
                 <h2 class="h2 font-weight-bold">Your Success is Our Mission.</h2>
                 <p>
@@ -40,12 +52,17 @@
                     Error non illo, numquam, architecto molestias reprehend<br>
                     vel quos.
                 </p>
+                <div class="ptb-20"><a class="btn-send grey-text font-weight-bold ml-0 btn-white" href="#viewdemo"><i
+                            class="fa fa-play mr-1"></i> View Demo</a>
+                    <a class=" btn-margin btn-outline-white " href="#">Learn more</a>
+                </div>
+                
             </div>
         </div>
     </section>
     <section>
         <div class="row no-gutters">
-            <div class="col-3" style="background-color: blueviolet;">
+            <div class="col-lg-3 col-md-6 col-12" style="background-color: blueviolet;">
                 <div class="text-white p-5 text-center">
                     <i class="fa fa-line-chart fa-2x"></i>
                     <div class="mt-3">
@@ -57,7 +74,7 @@
 
                 </div>
             </div>
-            <div class="col-3" style="background-color: plum;">
+            <div class="col-lg-3 col-md-6" style="background-color: plum;">
                 <div class="text-white p-5 text-center">
                     <i class="fa fa-industry fa-2x"></i>
                     <div class="mt-3">
@@ -71,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3" style="background-color: seagreen;">
+            <div class="col-lg-3 col-md-6 " style="background-color: seagreen;">
                 <div class="text-white p-5 text-center">
                     <i class="fa fa-users fa-2x"></i>
                     <div class="mt-3">
@@ -86,7 +103,7 @@
                 </div>
 
             </div>
-            <div class="col-3" style="background-color: skyblue;">
+            <div class="col-lg-3 col-md-6" style="background-color: skyblue;">
                 <div class="text-white p-5 text-center">
                     <i class="fa fa-bullhorn fa-2x"></i>
                     <div class="mt-3">
@@ -116,7 +133,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class=" col-sm-4">
                     <i class="fa fa-dashboard fa-3x orange-text"></i><br>
                     <div class="mt-3">
                         <h3 class="h4 font-weight-bold">Design</h3>
@@ -128,7 +145,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     <i class="fa fa-comments-o fa-3x cyan-text"></i>
                     <div class="mt-3">
                         <h3 class="h4 font-weight-bold">Feedback</h3>
@@ -140,7 +157,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     <i class="fa fa-cubes fa-3x red-text"></i>
                     <div class="mt-3">
                         <h3 class="h4 font-weight-bold">Execution</h3>
@@ -169,10 +186,10 @@
             </div>
             <div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4 mb-sm-0 mb-3">
                         <img class="w-100" src="assets/images/kuala-lumpur.jpg" alt="kuala">
                     </div>
-                    <div class="col-8 ">
+                    <div class="col-sm-8 ">
                         <div class="d-flex">
                             <div class="pr-2">
                                 <i class="fa fa-book fa-2x cyan-text"></i>
@@ -216,7 +233,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-sm-8">
 
                         <div class="d-flex ">
                             <div class="pr-2">
@@ -270,12 +287,13 @@
                         </div>
 
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4">
                         <img class="w-100" src="assets/images/san-francisco (1).jpg" alt="kuala">
                     </div>
                 </div>
             </div>
         </div>
+        
     </section>
     <section class="text-center py-5 text-white indigo">
         <div class="container">
@@ -294,8 +312,8 @@
                 </div>
             </div>
             <div class="row no-gutters mb-5 justify-content-center">
-                <div class="col-md-3 mx-3 img-rel"
-                    style="background-image: linear-gradient(rgba(27, 25, 43, 0.7), rgba(34, 39, 38, 0.7)),url('assets/images/tower.jpg');">
+                <div class="col-md-3 mx-3 img-rel mb-sm-0 mb-5"
+                    style="background-image: linear-gradient(rgba(27, 25, 43, 0.7), rgba(34, 39, 38, 0.7)),url('assets/images/tower.jpg');background-position: center;">
                     <div class="pricing-inner">
                         <div class="pt-4 font-weight-bold">Individual</div>
                         <div class="py-3">
@@ -312,7 +330,7 @@
                         <button class="btn-buynow">Buy</button>
                     </div>
                 </div>
-                <div class="col-md-3 mx-3 img-rel"
+                <div class="col-md-3 mx-3 img-rel img-rel mb-sm-0 mb-5"
                     style="background-image: linear-gradient(rgba(9, 105, 86, 0.7), rgba(23, 138, 115, 0.7)), url('assets/images/tower.jpg');">
                     <div class="pricing-inner">
                         <div class="pt-4 font-weight-bold">Startup</div>
@@ -367,66 +385,78 @@
             </div>
             <div class="row">
 
-                <div class="row col-6 mb-5">
-                    <div class="col-6">
-                        <div>
-                            <img src="assets/images/woman-1.jpg">
+                <div class="row col-sm-6 mb-5">
+                    <!-- <div class="row"> -->
+                        <div class="col-sm-6 text-center mb-sm-0 mb-5">
+                            <div>
+                                <img src="assets/images/woman-1.jpg">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <h4 class="font-weight-bold">Nicole west</h4>
-                        <h6 class="grey-text">lead designer</h6>
-                        <div class="grey-text2">
-                            <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing
-                                elit.<br>Fugit.
-                            </p>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h4 class="font-weight-bold">Nicole west</h4>
+                            <h6 class="grey-text">lead designer</h6>
+                            <div class="grey-text2">
+                                <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing
+                                    elit.<br>Fugit.
+                                </p>
+                                <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i><span
+                                        class="ml-1">@nicolewest</span></a>
+                            </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
-                <div class="row col-6">
-                    <div class="col-6">
-                        <div>
-                            <img src="assets/images/woman-2.jpg">
+                <div class="row col-sm-6">
+                    <!-- <div class="row"> -->
+                        <div class="col-sm-6 text-center  mb-sm-0 mb-5">
+                            <div>
+                                <img src="assets/images/woman-2.jpg">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <h4 class="font-weight-bold">Hannah west</h4>
-                        <h6 class="grey-text">photographer</h6>
-                        <div>
-                            <p class="grey-text2">Lorem ipsum dolor sit amet,<br>consectetur adipisicing
-                                elit.<br>Fugit.
-                            </p>
+                        <div class="col-sm-6 text-center text-sm-left  mb-sm-0 mb-5">
+                            <h4 class="font-weight-bold">Hannah west</h4>
+                            <h6 class="grey-text">photographer</h6>
+                            <div>
+                                <p class="grey-text2">Lorem ipsum dolor sit amet,<br>consectetur adipisicing
+                                    elit.<br>Fugit.
+                                </p>
+                                <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i><span
+                                        class="ml-1">@hannahcruz</span></a>
+                            </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
 
                 </div>
-                <div class="row col-6 mb-5">
-                    <div class="col-6">
+                <div class="row col-sm-6 mb-5">
+                    <div class="col-sm-6 text-center  mb-sm-0 mb-5">
                         <div>
                             <img src="assets/images/man-1.jpg">
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div  class="col-sm-6 text-center text-sm-left">
                         <h4 class="font-weight-bold">Mark hall</h4>
                         <h6 class="grey-text">web develper</h6>
                         <p class="grey-text2">Lorem ipsum dolor sit amet,<br>consectetur adipisicing
                             elit.<br>Fugit.
                         </p>
+                        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i><span
+                                class="ml-1">@markhall</span></a>
                     </div>
 
                 </div>
-                <div class="row col-6 ">
-                    <div class="col-6">
+                <div class="row col-sm-6">
+                    <div class="col-sm-6 text-center  mb-sm-0 mb-5">
                         <div>
                             <img src="assets/images/man-2.jpg">
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6 text-center text-sm-left">
                         <h4 class="font-weight-bold">Vincent harris</h4>
                         <h6 class="grey-text">web developer</h6>
                         <p class="grey-text2">Lorem ipsum dolor sit amet,<br>consectetur adipisicing
                             elit.<br>Fugit.
                         </p>
+                        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i><span
+                                class="ml-1">@vincentharris</span></a>
                     </div>
 
                 </div>
@@ -442,11 +472,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure
                         provident voluptate
                         esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.
+                    </p>
                 </div>
                 <div class="row p-5" style="background-color: white;">
-                    <div class="col-6">
+                    <div class="col-sm-6 text-sm-left text-center">
                         <form action="" autocomplete="off">
-                            <input class="form-element" type="text" placeholder="Your name">
+                            <input class="form-element" rows="4" placeholder="Your name">
                             <input class="form-element" type="email" placeholder="Your email"><br>
                             <input class="form-element" type="text" placeholder="Subject"><br>
                             <input class="form-element" type="text" placeholder="Your message"><br>
@@ -456,9 +487,9 @@
                             </button>
                         </form>
                     </div>
-                    <div class="col-6">
-                        <ul class="list-unstyled text-center ">
-                            <li class="pt-4"> <i class="fa fa-map-marker indigo-text fa-2x indigo-text"></i>
+                    <div class="col-sm-6 pt-sm-0 ">
+                        <ul class="list-unstyled text-center">
+                            <li class="pt-4 "> <i class="fa fa-map-marker indigo-text fa-2x indigo-text"></i>
                                 <p class="mt-2">140, City Center, New York, U.S.A</p>
                             </li>
                             <li class="pt-4"><i class="fa fa-phone indigo-text fa-2x indigo-text"></i>
