@@ -171,7 +171,7 @@ nav{
 
 }
 .nav-link{
-    flex: 1;
+    flex: 1; /*it will occupy all space in the row*/
     text-align: right;
 }
 .nav-link ul li{
@@ -182,9 +182,9 @@ nav{
 nav ul{
     margin: 0%;
 }
-/*nav .fa{
+nav .fa{
     display: none;
-}*/
+}
 @media(max-width: 700px) {
     .hero h2{
         font-size: 20px;
@@ -205,7 +205,7 @@ nav ul{
         text-align:left ;
         z-index: 2;
     }
-    nav .fa-solid{
+    nav .fa{
         display: block;
         color: #fff;
         margin: 10px;
@@ -214,8 +214,5 @@ nav ul{
     }
     p{
         font-size: 13px;
-    }
-    h2{
-        font-size: 20px;
     }
 }
