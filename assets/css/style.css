@@ -182,9 +182,9 @@ nav{
 nav ul{
     margin: 0%;
 }
-nav .fa-solid{
+/*nav .fa{
     display: none;
-}
+}*/
 @media(max-width: 700px) {
     .hero h2{
         font-size: 20px;

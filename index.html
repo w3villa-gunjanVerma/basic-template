@@ -19,8 +19,8 @@
                     <div class="">
                         <h3>Material Landing</h3>
                     </div>
-                    <div class="nav-link">
-                        <i class="fa-fa fa-xmark"></i>
+                    <div class="nav-link" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
                         <ul>
                             <li><a class="text-white" href="#about">About</a></li>
                             <li><a class="text-white" href="#project">Project</li>
@@ -30,13 +30,22 @@
                                 <button class="btn-download" href="#download">DOWNLOAD</button>
                         </ul>
                     </div>
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
                 </div>
             </div>
         </nav>
       
     </header>
-    
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
     
     
     
