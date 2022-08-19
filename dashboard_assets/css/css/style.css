@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.leftsidebar{
+    width:200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+}
+.rightslidebar {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+}
+/*common classes*/
+.font-size{
+    font-size: 35px;
+}
+.font-size-1{
+    font-size: 1rem;
+}
+.font-size-name{
+    font-size: 0.95rem;
+}
+.border-radius{
+    border-radius: 1rem !important;
+}
+.margin-1{
+    margin-left: 2rem;
+}
+.rounded{
+    border-radius: 1rem !important;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 20%);
+}
+.graph-image>img{
+    height: 9rem;
+    width: 20rem;
+    object-fit: contain;
+}
+.donut>img{
+    height: 5rem;
+    width: 8rem;
+    object-fit: contain;
+    justify-content: space-around;
+}
+.padding-bot{
+    padding-bottom: 25px;
+}
+.ptb-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.emoji-back{
+    height: 20px;
+    width: 20px;
+    background-color: blue;  
+    border-radius: 0.25rem; 
+}
+p{
+    margin-bottom: 0;
+}
+
+
+
+
