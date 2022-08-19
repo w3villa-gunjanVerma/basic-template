@@ -22,7 +22,7 @@
     font-size: 35px;
 }
 .font-size-1{
-    font-size: 1rem;
+    font-size: 15px;
 }
 .font-size-name{
     font-size: 0.95rem;
@@ -39,12 +39,12 @@
 }
 .graph-image>img{
     height: 9rem;
-    width: 20rem;
+    width: 100%;
     object-fit: contain;
 }
 .donut>img{
-    height: 5rem;
-    width: 8rem;
+   
+    
     object-fit: contain;
     justify-content: space-around;
 }
@@ -64,7 +64,70 @@
 p{
     margin-bottom: 0;
 }
+h6{
+    font-size: 12px;
+}
 
-
-
-
+.bar{
+   display: flex;
+   height: 100%;
+}
+.bar div.col-1 {
+    background: rgb(199, 191, 191);
+    height: 80%;
+    width: 17px;
+    margin: 11.5px;
+}
+.progress-1{
+    background: rgb(79, 79, 175);
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.progress-2{
+    background:  rgb(79, 79, 175);
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.progress-3{
+    background:  rgb(79, 79, 175);
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.progress-4{
+    background:  rgb(79, 79, 175);
+    width: 100%;
+    height: 20%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.progress-5{
+    background:  rgb(79, 79, 175);
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.progress-6{
+    background: rgb(79, 79, 175);
+    width: 100%;
+    height: 80%;
+    /* border-top-left-radius: 25px;
+    border-top-right-radius: 25px; */
+}
+.col-1{
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    /* border-top-right-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+}
+.col-1, .col-1 div{
+    border-radius: 1rem;
+}
